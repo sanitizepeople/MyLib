@@ -14,11 +14,8 @@ app.set("views", __dirname + "/views");
 app.set("layout", "layouts/layout");
 app.use(expressLayouts);
 app.use(express.static("public"));
-<<<<<<< HEAD
 app.use(bodyParser.urlencoded({ limit: "10mb", extended: false }));
-=======
 
->>>>>>> 034c10c27ebd18355484fd742d81fc4f3bf34633
 const mongoose = require("mongoose");
 mongoose.connect(process.env.DATABASE_URL, {
   useNewUrlParser: true,
