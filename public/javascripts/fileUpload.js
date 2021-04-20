@@ -5,4 +5,5 @@ FilePond.setOptions({
   imageResigeTargetWidth: 100,
   imageResigeTargetHeight: 150,
 });
+
 FilePond.parse(document.body);
